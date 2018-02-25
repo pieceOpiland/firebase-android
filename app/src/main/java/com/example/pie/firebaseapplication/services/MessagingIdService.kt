@@ -9,5 +9,4 @@ class MessagingIdService : FirebaseInstanceIdService() {
         super.onTokenRefresh()
         Log.i("MessagingIdService", "${FirebaseInstanceId.getInstance().token}")
     }
-
 }
